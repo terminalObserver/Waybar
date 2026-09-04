@@ -1,3 +1,5 @@
+# Taskbar groups item together
+
 # Waybar
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
