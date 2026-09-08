@@ -1,4 +1,6 @@
-# Taskbar groups item together
+# Added feature to wlr/taskbar
+multiple instances of an application are grouped together and enumerated.
+
 
 # Waybar
 
