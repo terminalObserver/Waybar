@@ -1,5 +1,6 @@
 # Added feature to wlr/taskbar
 multiple instances of an application are grouped together and enumerated.
+<img width="382" height="49" alt="image" src="https://github.com/user-attachments/assets/df8f3dbd-2d5f-4777-952e-70c259303cf9" />
 
 
 # Waybar
