@@ -6,7 +6,7 @@ multiple instances of an application are grouped together and enumerated.
 below i use icon and title in the format string.
 
 Set in the config like this:
-...
+`...
 		"wlr/taskbar": {
 				"expand":true,
 				"truncate":true,
@@ -27,7 +27,7 @@ Set in the config like this:
 						"Thunar.*": "Thunar"
 				}
 		},
-    ...
+    ...`
 
 # Waybar
 
