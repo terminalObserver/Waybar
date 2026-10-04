@@ -2,6 +2,32 @@
 multiple instances of an application are grouped together and enumerated.
 <img width="382" height="49" alt="image" src="https://github.com/user-attachments/assets/df8f3dbd-2d5f-4777-952e-70c259303cf9" />
 
+#Added text truncation for title, app_id, or name, 
+below i use icon and title in the format string.
+
+Set in the config like this:
+...
+		"wlr/taskbar": {
+				"expand":true,
+				"truncate":true,
+				"truncate-value": 10,
+				"group-apps": true,
+				"sort-by-app-id": true,
+				"icon-size": 18,
+				"icon-theme": "Numix-Circle",
+				"format": "{icon} {title}",
+				"tooltip-format": "{title}",
+				"on-click-left": "activate",
+				"on-click-right": "close",
+				"ignore-list": ["Alacritty"],
+				"app_ids-mapping": {
+						"firefoxdeveloperedition": "firefox-developer-edition",
+				},
+				"rewrite": {
+						"Thunar.*": "Thunar"
+				}
+		},
+    ...
 
 # Waybar
 
